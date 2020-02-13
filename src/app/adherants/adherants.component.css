@@ -1,0 +1,15 @@
+#divrow{
+    border: black 2px ;
+}
+#divcol1{
+    border: black 2px ;
+}
+#divcol2{
+    border: black 2 px ;
+}
+#divlivres{
+    background-color: rgb(227, 192, 255);
+}
+#divcat{
+    background-color: pink;
+}

@@ -1,0 +1,45 @@
+body{
+    font-family:Roboto;
+
+}
+
+footer{
+    background-color:black;
+     padding:15px 0px;
+}
+
+footer ul li{
+    padding:5px 0px;
+}
+
+.adress span , .contact span , .social span{
+   color: white;
+   font-weight: 800;
+   padding-bottom: 5px;
+   margin-bottom: 10px;
+   display: block;
+   text-transform: uppercase;
+   font-size: 10px;
+   letter-spacing: 3px;
+}
+
+.adress li p , .contact li a , .social li a{
+    color:gray;
+    letter-spacing: 2px;
+    text-decoration:none;
+    font-size:15px;
+}
+
+.social li{
+    float:left;
+}
+
+.adress , .contact , .social {
+    list-style: none;
+}
+
+.fa{
+    color:gray;
+    margin-right: 15px;
+    font-size:14px;
+}
