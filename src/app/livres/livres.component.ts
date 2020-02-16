@@ -33,5 +33,12 @@ export class LivresComponent implements OnInit {
     })
 
   }
+  onGetdetailsLivres(l){
+    this.livreService.getLivres(l)
+    .subscribe(data => {
+      this.livres = data;
+    } , err=>{
+      console.log(err);
+    })
 
-}
+}}

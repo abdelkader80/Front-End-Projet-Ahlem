@@ -1,0 +1,18 @@
+<div class="panel panel-primary" id="divcol2">
+  <div id="divlivres" class="panel-heading">Ajouter une categorie
+
+  </div>
+  <br>
+<form class="form-inline" action="/action_page.php">
+  <div class="form-group">
+    <label for="email">Catégorie:</label>
+    <input type="text" name="nom_cat" [(ngModel)]="cat.nom_cat" class="form-control" >
+  </div>
+  <button type="submit" class="btn btn-default" (click)="postcat()">Ajouter</button>
+</form>
+<br>
+</div>
+
+
+
+

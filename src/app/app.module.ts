@@ -9,6 +9,8 @@ import { AproposComponent } from './apropos/apropos.component';
 import { LivresComponent } from './livres/livres.component';
 import { AdherantsComponent } from './adherants/adherants.component';
 import { HttpClientModule } from '@angular/common/http';
+import { AjoutlivreComponent } from './ajoutlivre/ajoutlivre.component';
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -20,15 +22,17 @@ import { HttpClientModule } from '@angular/common/http';
     AproposComponent,
     LivresComponent,
     AdherantsComponent,
-    
-    
-    
-   
+    AjoutlivreComponent,
+
+
+
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
