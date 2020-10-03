@@ -5,7 +5,7 @@
             <div class="panel panel-primary">
                 <div id="divcat" class="panel-heading">Categorie</div>
                 <ul *ngIf="categories" class="list-group">
-                    <li id="clickable" [ngClass]="c==currentCat?'active':''" *ngFor="let c of categories._embedded.categories" class="list-group-item" (click)="onGetLivres(c)">
+                    <li  *ngFor="let c of categories._embedded.categories" class="list-group-item" (click)="onGetLivres(c)">
                       {{c.nom_cat}}
                     </li>
 
@@ -22,6 +22,7 @@
                 <div id="divlivres" class="panel-heading">Liste des livres</div>
                 <ul *ngIf="livres"class="list-group">
                   <li *ngFor="let l of livres._embedded.livres" class="list-group-item">
+
                     {{l.titre}}
 
                   </li>
